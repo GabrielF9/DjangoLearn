@@ -25,7 +25,7 @@ SECRET_KEY = 'r)kpnvz-fz@8hh()2r8^1%9prrn&7^7yw-fiu!(+gkyn6(%duy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pygabriel.pythonanywhere.com']
 
 
 # Application definition
@@ -119,3 +119,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/pygabriel/DjangoLearn/static'
+
